@@ -1,0 +1,32 @@
+.formulario{
+     background-color: rgb(36, 34, 34) !important;
+     border-radius: 10px !important;
+     min-height: 100vh !important;
+     padding-top: 20px;
+}
+
+label{
+     font-size: 0.85rem !important;
+}
+
+.dadosPessoais, .genero, .interesses, .situacaoProfisional{
+     display: block;
+     border: 1px solid grey;
+     border-radius: 5px;
+     margin-top: 10px;
+     padding: 5px;
+}
+
+.interesses{
+     display: block;
+     border: 1px solid grey;
+     border-radius: 5px;
+     margin-top: 10px;
+     padding: 5px;
+}
+
+.interesses h6{
+     margin-bottom: -55px;
+}
+
+
