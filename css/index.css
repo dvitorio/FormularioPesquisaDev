@@ -21,11 +21,6 @@ label{font-size: 0.85rem !important}
      padding: 5px;
 }
 
-.telephones{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-}
 .interesses{
      display: block;
      border: 1px solid grey;
@@ -54,4 +49,30 @@ i{
 .stacks i:hover{
      color: rgb(72, 117, 200);
      transition: all 0.3s;
+}
+
+.buttonsControl{
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+}
+
+.buttonsControl button{
+     margin: 5px;
+}
+
+.midias{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.midias i{
+     color: white;
+     font-size: 20px;
+     margin: 0 5px 15px 5px;
+}
+
+.midias i:hover{
+     color: cornflowerblue;
 }
