@@ -42,4 +42,12 @@ const hibrido = document.getElementById('hibrido');
 //9 - PRETENSÃO SALARIAL
 const pretensao = document.getElementById('pretensao').value;
 
+
+const stack = document.querySelector('.stack');
+
+
+stack.onclick = ()=>{
+  stack.classList.add('stackSelected');
+};
+
   

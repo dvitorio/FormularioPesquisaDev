@@ -46,9 +46,28 @@ i{
      padding: 5px;
 }
 
-.stacks i:hover{
-     color: rgb(72, 117, 200);
-     transition: all 0.3s;
+.containerStacks{
+     display: flex !important;
+     flex-wrap: wrap;
+}
+
+.stack{
+     display: flex !important;
+     width: 4rem !important;
+     height: 4rem !important;
+     border-radius: 50% !important;
+     background-color: #f5f5f5 !important;
+}
+
+.stack i{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.stackSelected{
+     background-color: cornflowerblue !important;
+     color: white;
 }
 
 .buttonsControl{
